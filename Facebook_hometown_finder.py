@@ -9,7 +9,7 @@ from selenium import webdriver
 #username = input("enter your facebook user name (you can login with your phone number , if you connected it to facebook):")
 #passwd =  input("enter your faceboob passward:")
 #path = input("enter full path of where you want to save the img:")
-username = "0585553210"
+username = "________" #here enter your username/phone number
 passwd = ""
 name = input("enter the name of the person you want to search:")
 page = webdriver.Chrome(executable_path=r'C:\webdrivers\chromedriver.exe')
@@ -49,5 +49,5 @@ time.sleep(6)
 
 ##screenshot
 datascreenshot = pyautogui.screenshot()
-datascreenshot.save(r'C:\Users\Matan\PycharmProjects\net4u\im.png')
+datascreenshot.save(r'C:\Users\_____\_____\_____\im.png')
 page.close()
